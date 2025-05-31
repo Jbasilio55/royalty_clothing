@@ -5,7 +5,7 @@ import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
 
 import { UserContext } from "../../context/user.context";
-import { CartContext, CartProvider } from "../../context/cart.context";
+import { CartContext } from "../../context/cart.context";
 
 import Logo from "../../assets/crown.svg";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
@@ -18,8 +18,8 @@ const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
-        <Link className="logo" to="/">
-          <img src={Logo} />
+        <Link className="logo-container" to="/">
+          <img src={Logo} className="logo" />
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
