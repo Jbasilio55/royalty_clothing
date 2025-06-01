@@ -21,6 +21,9 @@
   }
   .quantity {
     display: flex;
+    span {
+      padding: 0 5px;
+    }
     .arrow {
       cursor: pointer;
     }
