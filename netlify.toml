@@ -1,4 +1,4 @@
 [build]
-  base = "./royalty-clothing"
+  base = "royalty-clothing"
   command = "npm run build"
-  publish = "royalty-clothing/build"
+  publish = "build"
